@@ -1,0 +1,266 @@
+html {
+    color: #222;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image: url('../img/congruent_pentagon.png');
+}
+/* https://www.toptal.com/designers/subtlepatterns/page/8/ */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inconsolata', monospace;
+
+}
+h3 {
+    line-height: 3;
+}
+
+li {
+    float: left;
+    display: block;
+    width: 100px;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+li a:visited {
+    text-decoration: none;
+}
+
+#add-event {
+    margin-top: 20px;
+}
+
+.custom-div {
+    text-align:center;
+    width:100%;
+    display:block;
+    margin:auto;
+}
+
+.cover-heading {
+    text-align: center;
+}
+
+#breadcrumbs {
+    clear: left;
+}
+
+#check-family {
+    float: left;
+
+    width: 600px;
+}
+
+#event-form {
+    text-align: left;
+}
+.align-input {
+    margin: auto;
+    line-height: 1.3;
+    width: 100%;
+    padding: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+#life-timeline {
+    float: right;
+    line-height: .5;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#logo-div {
+    text-align:center;
+    width:100%;
+    display:block;
+    margin:auto;
+}
+
+#logo {
+    height: 200px;
+    width: 300px;
+}
+
+#info-block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+
+.my-button:active {
+    background-color: black;
+    transform: translateY(4px);
+}
+
+.my-button:hover {
+    background-color: lightblue;
+}
+
+#name {
+    text-align: center;
+}
+
+.nav-bar {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 1px solid black;
+    height: 32px;
+}
+
+#person-info {
+    width: 250px;
+    float: left;
+    margin-left: 20px;
+    line-height: .5;
+
+}
+
+#portrait {
+    height: 200px;
+    width: 250px;
+    border: solid 1px black;
+    margin-bottom: 8px;
+}
+
+#search-bar {
+    text-align: center;
+}
+
+#search-bar input[type=text] {
+    margin-top: 40px;
+    padding: 6px;
+    width: 300px;
+    border: solid;
+    font-size: 1em;
+}
+
+#profile-div {
+    margin-top: 4em;
+    top: 50%;
+    line-height: .3;
+    width:100%;
+    display: table;
+}
+
+#profile-div img {
+    border: 1px dashed black;
+    height: 150px;
+    width: 200px;
+    vertical-align: middle;
+}
+
+#profile-div span {
+    text-align: center;
+    vertical-align: center;
+    display: table-cell;
+}
+
+.family-div {
+    text-align: left;
+    margin-left: 5px;
+    line-height: .5;
+    width:100%;
+    display:block;
+    border: 1px solid black;
+    margin-top: 5em;
+}
+
+#family-tree {
+    display: block;
+    position: relative;
+    top: 50px;
+    height: 400px;
+    width: 650px;
+    margin: 0 auto;
+
+}
+.family-div a {
+    line-height: .1;
+}
+.selected {
+    background-color: lightblue;
+}
+
+#sub-header {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#title {
+    text-align: center;
+    font-size: 3em;
+}
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* Catered towards iPhone 6s+ */
+    html, body {
+        overflow-x: hidden;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .nav-bar {
+        width: 99%;
+        height: 20px;
+    }
+    #logo {
+        height: 150px;
+        width: 200px;
+    }
+    li {
+        font-size: .6em;
+    }
+    p {
+        font-size: .7em;
+    }
+    #home-wrapper {
+        float: left;
+    }
+    #title {
+        font-size: 1em;
+        color: black;
+    }
+    #search-button {
+        margin-top: 10px;
+    }
+    #person-info {
+        float: left;
+        line-height: .5;
+    }
+    #family-tree {
+        height: 250px;
+        width: 300px;
+    }
+    #genealogy {
+        font-size: 1em;
+    }
+    #profile-div {
+        line-height: 1;
+    }
+    #profile-div img {
+        height: 125px;
+        width: 150px;
+    }
+    .family-div {
+        text-align: left;
+        line-height: .3;
+        width: 90%;
+        display: block;
+        border: 1px solid black;
+
+    }
+}

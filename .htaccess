@@ -1,0 +1,10 @@
+Options -Indexes
+
+RewriteEngine on
+
+#RewriteRule ^$ app/controller/siteController.php?action=home [QSA, L]
+RewriteRule ^$ old/index.html
+RewriteRule ^profile/?$ app/controller/siteController.php?action=profile [QSA, L]
+RewriteRule ^search/?$ app/controller/siteController.php?action=search [QSA, L]
+RewriteRule ^add/?$ app/controller/siteController.php?action=add [QSA, L]
+RewriteRule ^tree/?$ app/controller/siteController.php?action=tree [QSA, L]
